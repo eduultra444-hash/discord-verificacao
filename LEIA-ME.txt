@@ -1,0 +1,24 @@
+COMO USAR
+
+1. Renomeie .env.example para .env.
+2. Preencha seus dados.
+3. Para personalizar a mensagem, altere:
+   SERVER_NAME
+   PANEL_TITLE
+   PANEL_MESSAGE
+   PANEL_FOOTER
+
+4. Se quiser uma foto no painel:
+   coloque uma imagem PNG chamada:
+   server.png
+   dentro da pasta:
+   public
+
+5. Rode:
+   npm install
+   npm start
+
+6. No Discord, no canal de verificação, digite:
+   /painel
+
+O bot enviará a mensagem com o botão "Verificar".
